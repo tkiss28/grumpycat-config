@@ -7,6 +7,10 @@ resources:
 #namespace: cat-dev
 
 images:
+- digest: sha256:951dfc499389c43315d931f0d0e7e70b1d6d395c1847ff93a528fa62ac05febf
+  name: quay.io/rh-ee-tkiss/quarkus-grumpycat:latest
+  newName: quay.io/rh-ee-tkiss/quarkus-grumpycat
+  newTag: latest
 - digest: sha256:0416411f0d6a7e1ce6416187e491d6db88336394ec8d6287625603a65dc7addd
   name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs
