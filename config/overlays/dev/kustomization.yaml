@@ -7,10 +7,9 @@ resources:
 #namespace: cat-dev
 
 images:
-- digest: sha256:951dfc499389c43315d931f0d0e7e70b1d6d395c1847ff93a528fa62ac05febf
+- digest: sha256:019b4ff27ac84e5dfe681e70b6e0bc1c06dc8cd86e98aefbc7d534249ccf30d3
   name: quay.io/rh-ee-tkiss/quarkus-grumpycat:latest
   newName: quay.io/rh-ee-tkiss/quarkus-grumpycat
-  newTag: latest
 
 # generate a configmap 
   # Cat - Client ConfigMap, note that the client app runs entirely on the browser, 
